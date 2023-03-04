@@ -1,3 +1,5 @@
+# [https://necdetuygur.github.io/password-generator/](https://necdetuygur.github.io/password-generator/)
+
 # PasswordGenerator
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.1.
@@ -28,9 +30,11 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## gh-pages
 
+```
 git checkout -b gh-pages
 ng add angular-cli-ghpages
 ng deploy --base-href=https://necdetuygur.github.io/password-generator/
 git stash
 git checkout master
 git branch -D gh-pages
+```
